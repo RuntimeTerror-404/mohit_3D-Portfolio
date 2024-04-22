@@ -1,6 +1,12 @@
 import {
   mobile,
+  fullstack,
+  webcloud,
+  citizensbank,
+  bdilogo,
+  frt,
   backend,
+  s3,
   creator,
   web,
   javascript,
@@ -23,6 +29,15 @@ import {
   jobit,
   tripguide,
   threejs,
+  flask,
+  python,
+  jira,
+  api,
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
 } from "../assets";
 
 export const navLinks = [
@@ -42,32 +57,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development (React.js)",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Backend frameworks and services (Flask)",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Full-Stack development",
+    icon: fullstack,
   },
+  {
+    title: "Web-based cloud engineering (Amazon S3, Docker)",
+    icon: webcloud,
+  }
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,6 +88,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "RESTful APIs",
+    icon: api,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -89,82 +100,68 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Amazon S3",
+    icon: s3,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Jira Software",
+    icon: jira,
+  }
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full-Stack Engineer",
+    company_name: "BDIPlus Inc.",
+    icon: bdilogo,
+    iconBg: "white",
+    date: "May 2022 -  Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Played a pivotal role as a full-stack developer in the development of Afficiency Loans Provider, an end-to-end registration platform for loan applicants.",
+      "Leveraged Flask for backend development and React.js for frontend development to create a dynamic and user-friendly interface across 10+ screens, with a focus on payment and confirmation screens crucial for user experience.",
+      "Prioritized the development of user-friendly interfaces and streamlined workflows, particularly in payment and confirmation screens, to optimize the overall user experience and increase customer satisfaction.",
+      "Collaborated closely with stakeholders to understand their business needs and translate them into tailored technical solutions, enhancing the platform's usability and effectiveness in the insurance sales process.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Software Engineer Consultant",
+    company_name: "Citizens bank : Client",
+    icon: citizensbank,
+    iconBg: "white",
+    date: "May 2023 - June 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining loan-review application using React.js and other related technologies.",
+      "Spearheaded frontend development efforts for the R3P (Repurchase Review Resolution) project, an integral part of an internal application dedicated to loans analysis and management.",
+      "Collaborated closely with cross-functional teams including managers, analysts, tech admins, and senior analysts to understand requirements and translate them into user-friendly frontend solutions.",
+      "Implemented intuitive features within the application to streamline loan analysis, assignment, review request creation, and defect management processes, ultimately improving overall efficiency and productivity."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Open-Source Contributor",
+    company_name: "Microsoft Future Ready Talent Internship Program",
+    icon: frt,
+    iconBg: "white",
+    date: "December 2022 - March 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborating with cross-functional teams and engage with top executives of Microsoft and AICTE",
+      "Developed core competency in cloud services and built end-to-end project on microsoft-azure ",
+      "Participating in code reviews and providing constructive feedback to other learners.",
     ],
   },
 ];
@@ -196,69 +193,116 @@ const testimonials = [
   },
 ];
 
+const githubLink = "https://github.com/RuntimeTerror-404/crypto-verse";
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "Afficiency Whole Life",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to buy term-life policies digitally, it provides end-to-end process to book a policy and all kind of verifications.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://www.afficiency.com/whole-life",
   },
   {
-    name: "Job IT",
+    name: "Repruchase Review Resolution",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A bespoke digital platform designed to facilitate loan management for Managers, Analysts, and Senior Analysts handling accounts from over 50 agencies nationwide. This internal application is specifically tailored for use within Citizens Bank.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spring-boot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "aws(s3, glue)",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://www.citizensbank.com/loans/home-mortgage.aspx",
   },
   {
-    name: "Trip Guide",
+    name: "Amazon Clone",
+    githubLink : "https://github.com/RuntimeTerror-404/Amazonn-2.0",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a fully functional clone of AMAZON using REACT and FIREBASE. SIGN UP, SIGN IN, ADD TO CART, andonline STRIPE payment methods are some main features of this app.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind-css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "stripe api",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: project3,
+    source_code_link: "https://amazonn-2-0.vercel.app/",
+  },
+  {
+    name: "MOVIES PLUSS",
+    githubLink : "https://github.com/RuntimeTerror-404/cinema-plus",
+    description:
+      "A web app that provides quick information about movies and tv shows. You'll find live hosted version of it on my github repository.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html-css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project4,
+    source_code_link: "https://cinema-pluss.netlify.app/",
+  },
+  {
+    name: "Crypto Verse",
+    githubLink : "https://github.com/RuntimeTerror-404/crypto-verse",
+    description:
+      `Digital portal that provides information about cryptocurrencies and their related markets. visit my github repository for more information about this project`,
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html-css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "APIs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: "https://crypto-verse-psi.vercel.app/",
   },
 ];
 
